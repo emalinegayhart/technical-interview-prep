@@ -1,0 +1,1 @@
+Describe a situation when you worked with someone whose work style was different from yours
