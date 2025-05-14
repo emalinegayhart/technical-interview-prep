@@ -1,17 +1,23 @@
 Describe how you tracked the progress of a project in relation to its deadline:
 
-The team I was interning on at Shopify was tasked with creating LLM models that would help increase the relevance of 
-search results for our Shop App. As an intern, I first was assigned Exploratory Data Analysis tasks, but wanted to push 
-myself and created a proposal for a post processing step using the MMR algorithm as a base. I spoke with a staff engineer
- on how I assumed I would go about this and he gave suggestions to make the process easier. There were 4 main parts of this task.
-  1) Implementing the algorithm in the ranking step as a post processing step 
-  2) Conducting data analysis to showcase the differences between this diversifier, another, and the ranker without any diversifier 
-  3) Create a script which allows me to collect mass amount of data of the diversifier using multiple parameters so that I can find the ideal parameters and 
-  update the data with the data from the ideal parameters. 
-  4) Compile findings and make a conclusion or case as to whether we should incorporate my MMR diversifier. 
-  
-  Since I broke the project down into 4 easily understandable parts, I was able to create a draft timeline with the staff engineer 
-  to approximate what sort of timeline would be appropriate for a fulltime engineer and then add some leniency given that I am an part time intern. 
-  I strove to push past intern expectations with the knowledge of how long it might take a full time engineer, but I also gave myself grace if I couldn't. 
-  I was able to finish the MMR diversifier right after they finished shipping the new ranker and the other main diversifier which was on the critical path, 
-  so the timing was perfect because we were able to get results for the one and then implement mine right after. 
+Situation:
+During my internship at Shopify, I was on a team tasked with improving the relevance of search results for the Shop App using LLM models. Initially, I was responsible for Exploratory Data Analysis, but I wanted to take on a more impactful contribution.
+
+Task:
+I proposed and took ownership of a new project: implementing a post-processing step using the Maximal Marginal Relevance (MMR) algorithm to improve search result diversity. The goal was to evaluate its effectiveness and determine if it should be integrated into our pipeline.
+
+Action:
+I broke the project into four key phases:
+
+Implementing the MMR algorithm as a post-processing step in the ranking flow.
+
+Conducting comparative data analysis between the MMR diversifier, an existing diversifier, and the ranker alone.
+
+Developing a script to run large-scale experiments across various parameter combinations, allowing me to identify optimal configurations.
+
+Compiling the results into a report with a recommendation on whether to adopt the MMR diversifier.
+
+To stay on track, I worked with a staff engineer to build a realistic timeline based on what would be expected of a full-time engineer, with added flexibility since I was a part-time intern. I used this as a guide to pace myself, aiming to exceed expectations while being mindful of learning curves.
+
+Result:
+I completed the MMR implementation just after the team finished shipping the new ranker and another key diversifier that was on the critical path. The timing worked out perfectly, as we were able to test and evaluate my diversifier immediately afterward. This alignment ensured that my work contributed meaningfully to the broader project goals.
